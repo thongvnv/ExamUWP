@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="SearchFolder.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SearchFolder"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Question1" HorizontalAlignment="Left" Margin="358,382,0,0" VerticalAlignment="Top" Click="Question1"/>
+        <Button Content="Question2" HorizontalAlignment="Left" Margin="572,382,0,0" VerticalAlignment="Top" Click="Question2"/>
+
+    </Grid>
+</Page>
